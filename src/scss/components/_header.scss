@@ -1,0 +1,47 @@
+.header {
+  border-bottom: 1px solid #d6d9dc;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+  }
+
+  &__logo {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  &__nav {
+    display: flex;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+  }
+
+  &__item {
+    margin-right: 35px;
+  }
+
+  &__item:hover {
+    color: #2969ca;
+    transition: all linear 0.1s;
+  }
+}
+
+.connection {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+
+  &__contact {
+    margin-right: 35px;
+    cursor: pointer;
+  }
+}
